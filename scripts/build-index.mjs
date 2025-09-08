@@ -51,7 +51,13 @@ const sections = [
   },
 ];
 
-function buildBody() {
+function splitFrontmatter(text) {
+  const m = text.match(/^---\n[\s\S]*?\n---\n/);
+  if (!m) return { front: "", body: text };
+  return { front: m[0], body: text.slice(m[0].length) };
+}
+
+async function buildBody() {
   const lines = [];
   lines.push("# Project Overview & Index");
   lines.push(`Last update: ${new Date().toISOString().slice(0, 10)}\n`);
@@ -96,14 +102,7 @@ function buildBody() {
   return lines.join("\n");
 }
 
-function splitFrontmatter(text) {
-  // Matches a YAML frontmatter block at the very start of the file
-  const m = text.match(/^---\n[\s\S]*?\n---\n/);
-  if (!m) return { front: "", body: text };
-  return { front: m[0], body: text.slice(m[0].length) };
-}
-
-(async () => {
+async function main() {
   const newBody = await buildBody();
 
   if (existsSync(INDEX_PATH)) {
@@ -112,9 +111,9 @@ function splitFrontmatter(text) {
     const output = front ? `${front}\n${newBody}\n` : newBody;
     writeFileSync(INDEX_PATH, output);
   } else {
-    // If missing, write with a default frontmatter once
     const today = new Date().toISOString().slice(0, 10);
-    const defaultFront = `---\n` +
+    const defaultFront =
+      `---\n` +
       `title: Master Table of Contents\n` +
       `slug: master-table-of-contents\n` +
       `status: Approved\n` +
@@ -131,4 +130,9 @@ function splitFrontmatter(text) {
       `---\n\n`;
     writeFileSync(INDEX_PATH, `${defaultFront}${newBody}\n`);
   }
-})();
+}
+
+main().catch((e) => {
+  console.error(e);
+  process.exit(1);
+});
