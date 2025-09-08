@@ -32,7 +32,7 @@ summary: Template for a regional overview dossier.
 - Weather hazards, disease vectors, geohazards.
 
 ## Cross-links
-- [[30-Transformation-and-Processes/Agriculture-and-Soil-Management]]
+- [[Agriculture-and-Soil-Management]]
 - [[20-Resources-and-Ecology/Forestry-and-Biomass]]
 - [[70-Hazards-and-Risk/Weather-Hazards]]
 

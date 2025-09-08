@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "4f23668d9306206d",
+    "id": "27b3c715c34b1dd6",
     "type": "split",
     "children": [
       {
-        "id": "5438323350f9d6b6",
+        "id": "2e43d93d0f06b913",
         "type": "tabs",
         "children": [
           {
-            "id": "06c1f3d30ddf2c61",
+            "id": "50090803f05edac9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "60-Navigation-Measurement-and-Tools/_MOC-Measurement.md",
+                "file": "vault/30-Transformation-and-Processes/_MOC-Processes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_MOC-Measurement"
+              "title": "_MOC-Processes"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "666e18c1919be2da",
+    "id": "e7d3d5608b37d4a5",
     "type": "split",
     "children": [
       {
-        "id": "9926479aaaafe1e9",
+        "id": "6df20d5b9967718e",
         "type": "tabs",
         "children": [
           {
-            "id": "dc801dc9ced07310",
+            "id": "0151769d49a6d064",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "6035fa930d14a4c3",
+            "id": "dbfc148e036833e5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "584558f8548a961d",
+            "id": "4a763e9cbd26fbc1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "340e8c1b22622d1b",
+    "id": "cd59cf8270a3944b",
     "type": "split",
     "children": [
       {
-        "id": "d6050771e5b4ce57",
+        "id": "9e4643c8d2578ac7",
         "type": "tabs",
         "children": [
           {
-            "id": "eed0f673174aa557",
+            "id": "b1716c097b68bfde",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/TPL-Material-Datasheet.md",
+                "file": "vault/INDEX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TPL-Material-Datasheet"
+              "title": "Backlinks for INDEX"
             }
           },
           {
-            "id": "33a8871b98cb7122",
+            "id": "67c79130422e9328",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/TPL-Material-Datasheet.md",
+                "file": "vault/INDEX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TPL-Material-Datasheet"
+              "title": "Outgoing links from INDEX"
             }
           },
           {
-            "id": "9059f3afcfc377b3",
+            "id": "06999e3b36677a13",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +137,18 @@
             }
           },
           {
-            "id": "9692162f7d46eb62",
+            "id": "05eff8bccbf5d89f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/TPL-Material-Datasheet.md",
+                "file": "vault/INDEX.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TPL-Material-Datasheet"
+              "title": "Outline of INDEX"
             }
           }
         ]
@@ -169,25 +169,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "dc801dc9ced07310",
+  "active": "0151769d49a6d064",
   "lastOpenFiles": [
-    "30-Transformation-and-Processes/_MOC-Processes.md",
-    "Templates/TPL-Material-Datasheet.md",
-    "30-Processes-and-Transformation/_MOC-Processes.md",
-    "30-Transformation-and-Processes/_MOC-Transformation.md",
-    "30-Transformation-and-Processes/Woodworking-and-Joinery.md",
-    "30-Transformation-and-Processes/Water-Acquisition-and-Treatment.md",
-    "30-Transformation-and-Processes/Textiles-and-Leather.md",
-    "30-Transformation-and-Processes/Primary-Beneficiation.md",
-    "30-Transformation-and-Processes/Mining-and-Quarrying.md",
-    "30-Transformation-and-Processes/Metallurgy-Concepts.md",
-    "30-Transformation-and-Processes/Lime-and-Pozzolans.md",
-    "30-Transformation-and-Processes/Food-Processing-and-Preservation.md",
-    "30-Transformation-and-Processes/Chemistry-in-the-Field.md",
-    "30-Transformation-and-Processes/Ceramics-and-Glass.md",
-    "30-Transformation-and-Processes/Animal-Husbandry.md",
-    "30-Transformation-and-Processes/Agriculture-and-Soil-Management.md",
-    "30-Transformation-and-Processes",
-    "Templates/TPL-Dossier.md"
+    "vault/INDEX.md",
+    "vault/30-Transformation-and-Processes/_MOC-Processes.md",
+    "vault/30-Transformation-and-Processes/Woodworking-and-Joinery.md",
+    "vault/30-Transformation-and-Processes/Water-Acquisition-and-Treatment.md",
+    "vault/30-Transformation-and-Processes/Textiles-and-Leather.md",
+    "vault/30-Transformation-and-Processes/Primary-Beneficiation.md",
+    "vault/30-Transformation-and-Processes/Mining-and-Quarrying.md",
+    "vault/30-Transformation-and-Processes/Metallurgy-Concepts.md",
+    "vault/30-Transformation-and-Processes/Food-Processing-and-Preservation.md",
+    "vault/30-Transformation-and-Processes/Lime-and-Pozzolans.md",
+    "vault/30-Transformation-and-Processes/Chemistry-in-the-Field.md",
+    "vault/30-Transformation-and-Processes/Ceramics-and-Glass.md",
+    "vault/30-Transformation-and-Processes/Animal-Husbandry.md",
+    "vault/30-Transformation-and-Processes/Agriculture-and-Soil-Management.md",
+    "vault/30-Transformation-and-Processes",
+    "vault/10-World-and-Environment/Planetary-Cycles.md",
+    "2025-09-08.md",
+    "vault/10-World-and-Environment/_MOC-World.md",
+    "vault/10-World-and-Environment/Biomes-and-Ecology.md",
+    "vault/10-World-and-Environment/Climate-and-Weather.md",
+    "vault/00-Governance/Units-Policy.md",
+    "vault/00-Governance/Style-Guide.md",
+    "vault/00-Governance/Safety-Policy.md",
+    "vault/00-Governance/Review-Checklist.md",
+    "vault/00-Governance/Decision-Log.md",
+    "vault/10-World-and-Environment/Tectonics-and-Rock-Cycle.md",
+    "vault/10-World-and-Environment/Soils-and-Pedology.md",
+    "scripts/build-index.mjs",
+    "scripts",
+    "vault/Templates",
+    "vault/90-Data-and-References/Sources",
+    "vault/90-Data-and-References/Tables",
+    "vault/90-Data-and-References/Materials",
+    "vault/90-Data-and-References",
+    "vault/80-Regions-and-Contexts",
+    "vault/70-Hazards-and-Risk"
   ]
 }

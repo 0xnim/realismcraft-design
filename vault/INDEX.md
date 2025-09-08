@@ -20,7 +20,7 @@ Last update: 2025-09-08
 
 - World & Environment → [[10-World-and-Environment/_MOC-World|MOC]]
 - Resources & Ecology → [[20-Resources-and-Ecology/_MOC-Resources|MOC]]
-- Transformation & Processes → [[30-Transformation-and-Processes/_MOC-Processes|MOC]]
+- Transformation & Processes → [[_MOC-Processes|MOC]]
 - Structures & Infrastructure → [[40-Structures-and-Infrastructure/_MOC-Structures|MOC]]
 - Human Biology & Health → [[50-Human-Biology-and-Health/_MOC-Human|MOC]]
 - Navigation & Measurement → [[60-Navigation-Measurement-and-Tools/_MOC-Measurement|MOC]]

@@ -1,0 +1,21 @@
+name: Rebuild INDEX
+on:
+  schedule:
+    - cron: "0 2 * * *" # 02:00 UTC daily
+  workflow_dispatch: {}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm init -y && npm i globby@14
+      - run: node scripts/build-index.mjs
+      - run: |
+          git config user.name "docs-bot"
+          git config user.email "docs-bot@example.com"
+          git add vault/INDEX.md
+          git commit -m "chore: rebuild INDEX.md" || echo "No changes to commit"
+          git push
