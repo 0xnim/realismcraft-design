@@ -15,7 +15,7 @@ summary: The central index for all Realism Bible documentation.
 ---
 
 # Project Overview & Index
-Last update: 2026-02-14
+Last update: 2026-02-15
 
 - World & Environment → [[vault/10-World-and-Environment/_MOC-World.md|World & Environment MOC]]
   - [[vault/10-World-and-Environment/Biomes-and-Ecology.md|Biomes and Ecology]]
